@@ -1,0 +1,37 @@
+{
+	"name": "seqseed",
+	"version": "1.0.1",
+	"main": "index.js",
+	"author": "Mohamed Saied Elbayoumi",
+	"license": "MIT",
+	"bin": {
+		"seqseed": "index.js"
+	},
+	"description": "Easy way for seeding database using nest.js and sequelize",
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"dependencies": {
+		"@inquirer/prompts": "^7.3.1",
+		"picocolors": "^1.1.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Mohamedelbayoumi/Seqseed.git"
+	},
+	"keywords": [
+		"nestjs",
+		"nest.js",
+		"sequelize",
+		"cli",
+		"seeder",
+		"database",
+		"seeding"
+	],
+	"files": [
+		"index.js",
+		"package.json",
+		"README.md",
+		"LICENSE"
+	]
+}
